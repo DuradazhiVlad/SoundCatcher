@@ -3,11 +3,18 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net10.0-windows</TargetFramework>
+    
+    <AssemblyName>Звукозапис-Влад Дурадажи</AssemblyName>
+    <RootNamespace>Звукозапис-Влад Дурадажи</RootNamespace>
+    <ApplicationIcon>Звукозапис.ico</ApplicationIcon>
+    <Title>Звукозапис-Влад Дурадажи</Title>
+    <Product>Звукозапис-Влад Дурадажи</Product>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Version>1.1.0</Version>
-  </PropertyGroup>
+    
+    </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NAudio" Version="2.2.1" />
